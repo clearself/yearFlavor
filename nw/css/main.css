@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    touch-action: none;
+}
+
+.mPicker-main {
+    bottom: 0;
+    left: 10%;
+    width: 80%;
+}
+
+.mPicker-footer,
+.mPicker-header {
+    border: none;
+}
+
+.mPicker-header {
+    bottom: 20px;
+}
+
+.mPicker-footer {
+    text-align: center;
+    top: 30px;
+}
+
+.mPicker-main.mPicker-bottom {
+    bottom: 50%;
+    margin-bottom: -111px;
+    background: none;
+}
+
+.mPicker-shadow {
+    border-radius: 5px;
+}
+
+.mPicker-main .mPicker-content {
+    background: #f5f5f5;
+    border-radius: 5px;
+    border: 1px solid #151415;
+}
+
+.mPicker-content {
+    border: 0.106666rem solid rgba(21, 21, 21, 1) !important;
+    border-radius: 0.533333rem !important;
+}
+
+.swiper-container {
+    height: 100%;
+}
+
+.swiper-slide {
+    position: relative;
+    background-color: #fff;
+    color: #fff;
+    font-size: 0.48rem;
+    text-align: center;
+    /*background-position: 0 bottom;*/
+    background-size: 100% 100%;
+}
+
+/*音乐播放*/
+
+.music {
+    width: 1.6rem;
+    height: 1.6rem;
+    position: absolute;
+    right: .2rem;
+    top: .2rem;
+    z-index: 100;
+}
+
+.music .control {
+    width: 1.4rem;
+    height: 1.4rem;
+    background: url(../image/music_c0fda01.gif) transparent no-repeat center center;
+    background-size: contain;
+}
+
+.music .control .control-after {
+    width: .8rem;
+    height: .8rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -.5rem;
+    margin-left: -.5rem;
+    background: url(../image/music_off_8d94020.png) transparent no-repeat center center;
+    background-size: 100% 100%;
+    -webkit-animation: music_play 1.2s linear infinite;
+    animation: music_play 1.2s linear infinite;
+    z-index: -1
+}
+
+.music.stopped .control {
+    background: 0 0;
+}
+
+.music.stopped .control .control-after {
+    -webkit-animation: none;
+    animation: none;
+}
+
+@-webkit-keyframes music_play {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes music_play {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+.start-page {
+    background: #f7f7f7;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 99999;
+    text-align: center;
+    background-image: url(../image/sense_one.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.prencet {
+	width: 100%;
+    height: 100%;
+	position: fixed;
+	left:0;
+	top:0
+    
+}
+
+.prencet>div {
+    width: 100%;
+    position: absolute;
+    bottom: 10%;
+    /*margin-top: -80px;*/
+  
+}
+
+.prencet .num-o {
+    width: 200px;
+    height: 6px;
+    border-radius: 8px;
+    background-color: #F8DC9A;
+   border: 1px solid #EEBB65;
+    margin: 0 auto;
+    position: relative;
+}
+
+.prencet .num-o span.num {
+    width: 0;
+    height: 6px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 8px;
+    transition: all .2s;
+    background-color: #E15443;
+}
+
+.prencet span.text {
+    font-size: 12px;
+    color: #E15443;
+    display: block;
+    margin: 15px 0;
+}
+
+.musicDiv {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 20;
+    background-color: red;
+}
+
+.box {
+    width: 100%;
+    position: absolute;
+    bottom: 40px;
+}
+
+.box>p {
+    line-height: 0.8rem;
+    font-size: 0.533333rem;
+    color: #333;
+}
+
+.box.left {
+    left: 30px;
+}
+
+.box.center {
+    bottom: 90px;
+}
+
+.box.right {
+    right: 30px;
+}
+
+.box.right>p {
+    text-align: right;
+}
+
+.box.center>p {
+    text-align: center;
+}
+
+.box.left>p {
+    text-align: left;
+}
+.box>p.title {
+	width:80%;
+	text-align: left;
+	font-size: 20px;
+    color: #333;
+    font-weight: 600;
+    margin: 0 auto 10px;
+}
+.box>p.desc {
+	width:80%;
+	line-height: 0.8rem;
+    font-size: 0.533333rem;
+    color: #333;
+    text-align: left;
+    margin: 0 auto;
+}
+.box.bottom50 {
+    bottom: 0.666666rem;
+}
+.box.bottom60 {
+    bottom: 0.8rem;
+}
+.box.bottom146 {
+    bottom: 1.946666rem;
+}
+
+.box.bottom230 {
+    bottom: 3.066666rem;
+}
+
+.btn-box {
+    position: relative;
+    height: 100%;
+}
+
+
+
+.btn {
+    width: 5.6rem;
+    height: 1.333333rem;
+    line-height: 1.333333rem;
+    color: #333;
+    font-size: 0.533333rem;
+    position: absolute;
+    left: 50%;
+    bottom: 1.066666rem;
+    background-color: #fff;
+    border: 4px solid rgba(21, 21, 21, 1);
+    border-radius: 0.733333rem;
+    text-align: center;
+    -webkit-transform: translate(-50%);
+    transform: translate(-50%);
+}
+
+.btn.last {
+    width: 7.52rem;
+}
