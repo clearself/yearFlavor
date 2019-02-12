@@ -5,13 +5,13 @@ $('body').on('touchmove', function(event) {
 
 window.onload = function() {
 	var imgs = [
-		'./nw/image/sense_one.png',
-		'./nw/image/sense_two.png',
-		'./nw/image/sense_three.png',
-		'./nw/image/sense_four.png',
-		'./nw/image/sense_five.png',
-		'./nw/image/sense_six.png',
-		'./nw/image/sense_seven.png',
+		'./nw/image/scene01.jpg',
+		'./nw/image/scene02.jpg',
+		'./nw/image/scene02.jpg',
+		'./nw/image/scene02.jpg',
+		'./nw/image/scene05.jpg',
+		'./nw/image/scene12.jpg',
+		'./nw/image/scene13.jpg',
 	]
 	var fixed_id;
 	var newCity = [];
@@ -53,7 +53,7 @@ window.onload = function() {
 						this.allowSlideNext = false; //设置
 					}
 					this.activeIndex === 3 && showSelect();
-					if(this.activeIndex === 2 || this.activeIndex === 3 || this.activeIndex === 5) {
+					if(this.activeIndex === 2 || this.activeIndex === 3) {
 						this.autoplay.stop();
 					}
 
@@ -154,11 +154,6 @@ window.onload = function() {
 		mySwiper.slideNext();
 		mySwiper.autoplay.start()
 	})
-	$("#sense_six").on("touchstart", function() {
-		mySwiper.slideNext();
-		mySwiper.autoplay.start()
-	})
-
 	function getSense(data) {
 		var str = '',
 			textArr = [],

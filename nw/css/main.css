@@ -63,8 +63,8 @@ body {
     color: #fff;
     font-size: 0.48rem;
     text-align: center;
-    /*background-position: 0 bottom;*/
-    background-size: 100% 100%;
+    background-position: 0 bottom;
+    background-size: cover;
 }
 
 /*音乐播放*/
@@ -81,7 +81,7 @@ body {
 .music .control {
     width: 1.4rem;
     height: 1.4rem;
-    background: url(../image/music_c0fda01.gif) transparent no-repeat center center;
+    background: url(https://cdn.xi5jie.com/static/image/music_on.gif) transparent no-repeat center center;
     background-size: contain;
 }
 
@@ -93,7 +93,7 @@ body {
     left: 50%;
     margin-top: -.5rem;
     margin-left: -.5rem;
-    background: url(../image/music_off_8d94020.png) transparent no-repeat center center;
+    background: url(https://cdn.xi5jie.com/static/image/music_icon.png) transparent no-repeat center center;
     background-size: 100% 100%;
     -webkit-animation: music_play 1.2s linear infinite;
     animation: music_play 1.2s linear infinite;
@@ -137,7 +137,7 @@ body {
     right: 0;
     z-index: 99999;
     text-align: center;
-    background-image: url(../image/sense_one.png);
+    background-image: url(https://cdn.xi5jie.com/share/2019/nianwei/scene01.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
@@ -181,15 +181,15 @@ body {
 }
 
 .prencet span.text {
-    font-size: 12px;
+    font-size: .36rem;
     color: #E15443;
     display: block;
-    margin: 15px 0;
+    margin: 0.266666rem 0;
 }
 
 .musicDiv {
-    width: 100px;
-    height: 100px;
+    width: 1.333333rem;
+    height: 1.333333rem;
     position: fixed;
     left: 0;
     top: 0;
@@ -200,25 +200,25 @@ body {
 .box {
     width: 100%;
     position: absolute;
-    bottom: 40px;
+    bottom: 0.533333rem;
 }
 
 .box>p {
     line-height: 0.8rem;
     font-size: 0.533333rem;
-    color: #333;
+    color: #000000;
 }
 
 .box.left {
-    left: 30px;
+    left: 0.4rem;
 }
 
 .box.center {
-    bottom: 90px;
+    bottom: 1.2rem;
 }
 
 .box.right {
-    right: 30px;
+    right: 0.4rem;
 }
 
 .box.right>p {
@@ -235,10 +235,10 @@ body {
 .box>p.title {
 	width:80%;
 	text-align: left;
-	font-size: 20px;
+	font-size: 0.6rem;
     color: #333;
     font-weight: 600;
-    margin: 0 auto 10px;
+    margin: 0 auto 0.266666rem;
 }
 .box>p.desc {
 	width:80%;
@@ -279,7 +279,7 @@ body {
     left: 50%;
     bottom: 1.066666rem;
     background-color: #fff;
-    border: 4px solid rgba(21, 21, 21, 1);
+    border: 0.05rem solid rgba(21, 21, 21, 1);
     border-radius: 0.733333rem;
     text-align: center;
     -webkit-transform: translate(-50%);

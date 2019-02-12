@@ -10,7 +10,7 @@ function uniqueArr(arr) {
 
 var city = [{
         'ids': [1, 2, 3, 4, 5],
-        'bcg': './nw/image/sense_five.png',
+        'bcg': './nw/image/scene04.jpg',
         'text': [
             '青瓦白墙的南方小镇',
             '冉冉升起的孔明灯',
@@ -24,7 +24,7 @@ var city = [{
     },
     {
         'ids': [6, 7, 8],
-        'bcg': './nw/image/sense_five.png',
+        'bcg': './nw/image/scene05.jpg',
         'text': [
             '堆着雪人穿貂放鞭炮',
             '老房子的炊烟还在飘',
@@ -38,11 +38,12 @@ var city = [{
     },
     {
         'ids': [9, 10, 11, 12],
-        'bcg': './nw/image/sense_five.png',
+        'bcg': './nw/image/scene06.jpg',
         'text': [
             '比吃上香辣的家乡菜',
             '更让人觉得温暖的是',
-            '和家人老小围坐在火炉旁，好好聊聊',
+            '和家人老小围坐在火炉旁',
+            '好好聊聊',
         ],
         'fixed_text':[
         	'西五街少女【温柔酱周闪闪】',
@@ -51,7 +52,7 @@ var city = [{
     },
     {
         'ids': [13, 14, 15, 16],
-        'bcg': './nw/image/sense_five.png',
+        'bcg': './nw/image/scene07.jpg',
         'text': [
             '岭南人回乡第一件事',
             '便是和至亲好友约上一顿下午茶',
@@ -65,7 +66,7 @@ var city = [{
     },
     {
         'ids': [17, 18, 19, 20, 21],
-        'bcg': './nw/image/sense_five.png',
+        'bcg': './nw/image/scene08.jpg',
         'text': [
 
             '大西北的年味',
@@ -80,7 +81,7 @@ var city = [{
     },
     {
         'ids': [22, 23, 24, 25, 26],
-        'bcg': './nw/image/sense_five.png',
+        'bcg': './nw/image/scene09.jpg',
         'text': [
 
             '面食是中原人士最热衷的美食',
@@ -93,7 +94,7 @@ var city = [{
         ]
     }, {
         'ids': [27, 28, 29, 30, 31],
-        'bcg': './nw/image/sense_five.png',
+        'bcg': './nw/image/scene10.jpg',
         'text': [
             '绿水高山辣火锅',
             '巴蜀的麻将俨然成了人们心中的国粹',
@@ -107,7 +108,7 @@ var city = [{
     },
     {
         'ids': [32, 33, 34],
-        'bcg': './nw/image/sense_five.png',
+        'bcg': './nw/image/scene11.jpg',
         'text': [
             '在车水马龙的街道',
             '和三五好友等待着新年的到来',
