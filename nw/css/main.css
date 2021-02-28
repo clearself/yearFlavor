@@ -81,7 +81,7 @@ body {
 .music .control {
     width: 1.4rem;
     height: 1.4rem;
-    background: url(https://cdn.xi5jie.com/static/image/music_on.gif) transparent no-repeat center center;
+    background: url(../image/music_on.gif) transparent no-repeat center center;
     background-size: contain;
 }
 
@@ -93,7 +93,7 @@ body {
     left: 50%;
     margin-top: -.5rem;
     margin-left: -.5rem;
-    background: url(https://cdn.xi5jie.com/static/image/music_icon.png) transparent no-repeat center center;
+    background: url(../image/music_off.png) transparent no-repeat center center;
     background-size: 100% 100%;
     -webkit-animation: music_play 1.2s linear infinite;
     animation: music_play 1.2s linear infinite;
@@ -137,7 +137,7 @@ body {
     right: 0;
     z-index: 99999;
     text-align: center;
-    background-image: url(https://cdn.xi5jie.com/share/2019/nianwei/scene01.jpg);
+    background-image: url(../image/scene01.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
